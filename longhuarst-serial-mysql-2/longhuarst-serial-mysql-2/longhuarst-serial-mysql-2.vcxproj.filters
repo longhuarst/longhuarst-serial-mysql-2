@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{5d65a41e-0a0f-4499-b732-8d2541165abe}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{45d2d5d0-5f51-4f59-a8ac-78e9e19474d8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{d6e59abe-9a28-42e5-90ca-ba28931e74a8}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{75bec926-1ee5-415d-b1d4-f3a40768dcab}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+    <Filter Include="clh">
+      <UniqueIdentifier>{f32802ca-b8ad-477b-92ae-2b691b36ea19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clh\serial">
+      <UniqueIdentifier>{952a5bfa-7541-4c3c-8ebc-d407f67f816c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clh\debug">
+      <UniqueIdentifier>{0d9e1cfb-087f-42f1-b9b7-db7d8b73ef72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="longhuarst-serial-mysql-2.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="clh\debug\syspf.cpp">
+      <Filter>clh\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="clh\serial\tty.cpp">
+      <Filter>clh\serial</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clh\serial\tty.h">
+      <Filter>clh\serial</Filter>
+    </ClInclude>
+    <ClInclude Include="clh\debug\syspf.h">
+      <Filter>clh\debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
