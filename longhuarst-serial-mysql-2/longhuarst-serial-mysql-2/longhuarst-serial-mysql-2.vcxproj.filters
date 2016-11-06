@@ -26,6 +26,12 @@
     <Filter Include="clh\debug">
       <UniqueIdentifier>{0d9e1cfb-087f-42f1-b9b7-db7d8b73ef72}</UniqueIdentifier>
     </Filter>
+    <Filter Include="clh\mysql">
+      <UniqueIdentifier>{a5d00ceb-9cf8-4c2f-b50d-c7d23a743c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clh\epoll">
+      <UniqueIdentifier>{af00fd47-1e47-4cf8-91ee-b4595189958e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="longhuarst-serial-mysql-2.cpp">
@@ -36,6 +42,12 @@
     </ClCompile>
     <ClCompile Include="clh\serial\tty.cpp">
       <Filter>clh\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="clh\mysql\mysql.cpp">
+      <Filter>clh\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="clh\epoll\epoll.cpp">
+      <Filter>clh\epoll</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -53,6 +65,12 @@
     </ClInclude>
     <ClInclude Include="clh\debug\syspf.h">
       <Filter>clh\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="clh\mysql\mysql.h">
+      <Filter>clh\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="clh\epoll\epoll.h">
+      <Filter>clh\epoll</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
